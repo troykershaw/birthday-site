@@ -1,7 +1,7 @@
 {
-  "name": "ConfBoilerplate",
-  "version": "0.2.0",
-  "description": "A kickstart to create websites for conference/events.",
+  "name": "Troyhog Day",
+  "version": "0.0.1",
+  "description": "Docpad generated site for Troyhog Day",
   "homepage": "http://confboilerplate.com",
   "repository" : {
     "type" : "git",

@@ -1,0 +1,22 @@
+<h2 class="section-title"><%= @labels['costumes'] %></h2>
+<p>Everyone must wear a costume derived from the movie <a href="http://www.imdb.com/title/tt0107048/">Groundhog Day</a>. <strong>No exceptions!</strong></p>
+<p>Here are some ideas:</p>
+<ul class="speakers-list">
+<% for actor in @actors: %>
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    <% if actor.photo: %>
+      <span class="speaker-photo"><img class="photo" src="<%= actor.photo %>" alt="<%= actor.name %>" itemprop="image" /></span>
+    <% end %>
+
+    <h3 class="speech-title">
+        <span class="speech-time actor-available-<%= actor.available %>"><% if actor.available: %>Available<% else: %>Taken<% end %></span>
+        <span><%= actor.character %></span>
+    </h3>
+    <p class="speakers-bio">
+      Played by <%= actor.name %>
+      <br>
+      <a href="http://www.twitter.com/<%= actor.twitter %>" title="Twitter @<%= actor.twitter %>">@<%= actor.twitter %></a>
+    </p>
+  </li>
+<% end %>
+</ul>
