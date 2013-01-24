@@ -1,7 +1,7 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">Troy's house in Duffy. Check your invitation for the exact address. The red mark below has no bearing on my house at all.</span>
+  <span itemprop="streetAddress">It starts at 6pm and is at Troy's house in Duffy. Check your invitation or text Troy for the exact address. The red mark below has no bearing on my house at all, but is used to confuse the many gate crashers I am expecting.</span>
 </p>
 
 <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>

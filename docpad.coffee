@@ -26,39 +26,72 @@ module.exports =
       'about'
       'location'
       'costumes'
+      'alcohol'
       'rsvp'
     ]
 
     # Labels which you can translate to other languages
     labels:
       about: "About"
-      location: "Location"
+      location: "Time & Place"
       costumes: "Costumes"
+      alcohol: "Alcohol"
       rsvp: "RSVP"
 
     # The entire cast
     actors: [
+      name: "some groundhog"
+      character: "Punxsutawney Phil"
+      photo: "/img/punxsutawney-phil-groundhog-day.jpg"
+      description: ""
+    ,
       name: "Bill Murray"
-      character: "Phil"
-      photo: "http://ia.media-imdb.com/images/M/MV5BMTQ1OTM0MjEwOF5BMl5BanBnXkFtZTYwNTQwNzI1._V1._SY314_CR0,0,214,314_.jpg"
-      twitter: "billmurray"
-      available: true
+      character: "Phil Connors"
+      photo: "/img/bill-murray-groundhog-day.jpg"
+      description: ""
     ,
-      name: "Andy McDowell"
+      name: "Andie MacDowell"
       character: "Rita"
-      photo: "http://ia.media-imdb.com/images/M/MV5BMzc1NTc4Nzk2Nl5BMl5BanBnXkFtZTcwNjMwMzg5Mg@@._V1._SY314_CR5,0,214,314_.jpg"
-      available: false
-      twitter: "billy95"
+      photo: "/img/andie-macdowell-groundhog-day.jpg"
+      description: ""
     ,
-      name: "Andy McDowell"
-      character: "Rita"
-      photo: "http://ia.media-imdb.com/images/M/MV5BMzc1NTc4Nzk2Nl5BMl5BanBnXkFtZTcwNjMwMzg5Mg@@._V1._SY314_CR5,0,214,314_.jpg"
-      available: false
-      twitter: "billy95"
+      name: "Chris Elliott"
+      character: "Larry"
+      photo: "/img/chris-elliott-groundhog-day.jpg"
+      description: "" 
     ,
-      name: "Andy McDowell"
-      character: "Rita"
-      photo: "http://ia.media-imdb.com/images/M/MV5BMzc1NTc4Nzk2Nl5BMl5BanBnXkFtZTcwNjMwMzg5Mg@@._V1._SY314_CR5,0,214,314_.jpg"
-      available: true
-      twitter: "billy95"        
+      name: "Stephen Tobolowsky"
+      character: "Ned Ryerson"
+      photo: "/img/stephen-tobolowsky-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Brian Doyle-Murray"
+      character: "Buster"
+      photo: "/img/brian-doyle-murray-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Marita Geraghty"
+      character: "Nancy"
+      photo: "/img/marita-geraghty-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Michael Shannon"
+      character: "Fred"
+      photo: "/img/michael-shannon-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Rick Overton"
+      character: "Ralph"
+      photo: "/img/rick-overton-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Willie Garson"
+      character: "Phil's assistant"
+      photo: "/img/willie-garson-groundhog-day.jpg"
+      description: "" 
+    ,
+      name: "Harold Ramis"
+      character: "Neurologist"
+      photo: "/img/harold-ramis-groundhog-day.jpg"
+      description: ""
     ]

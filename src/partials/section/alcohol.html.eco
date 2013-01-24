@@ -1,0 +1,2 @@
+<h2 class="section-title"><%= @labels['alcohol'] %></h2>
+<p>This is an alcohol free event. You won't be served any, and please don't bring any. :)</p>
